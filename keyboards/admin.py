@@ -9,6 +9,8 @@ kb_main = ReplyKeyboardMarkup(resize_keyboard=True)  # добавить one_time
                                                      # чтобы спрятать после нажатия
 kb_main.add(button_upload).row(button_contact, button_location).add(button_rm_kb)
 
+#----------------------------------------------------------------------------------------
+
 button_cancel = KeyboardButton('cancel')
 
 kb_cancel = ReplyKeyboardMarkup(resize_keyboard=True)
